@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Controle de Fiado</title>
+</head>
+<body>
+    <div class="principal">
+
+        <div class="tela1">
+            <h1 id="controle">CONTROLE </h1>
+            <h3>CADASTRAR CLIENTE</h3>
+
+            <form  method="POST" action="ondevai.php">
+                <fieldset>
+                    <legend>Dados Cliente:</legend>
+                <label>
+                    Nome do Cliente:<br>
+                    <input type="text" class="nome-1" required/>
+                </label><br>
+                <label>
+                    Endereço:<br>
+                    <input type="text" class="endereço"/>
+                </label><br>
+                <button class="btn-cadastrar" onclick="btncadastrar()">Cadastrar</button>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Pesquisa Cliente:</legend>
+                <label>
+                    Informe o nome do Cliente<br>
+                    <input type="text" class="clientenome"/>
+                </label><br>
+               
+                <button class="btn-pesquisar" onclick="btnpesquisar()">Pesquisar</button>
+                </fieldset>
+                                   
+            </form>    
+
+        </div>
+        <div class="tela2">
+            <form>
+               <fieldset>
+            <legend>Informações do Cliente</legend>
+
+            <div class="cliente">Cliente: 
+            <input class="nome-2" type="text">
+            </div>    
+                              
+            <div class="saldo-atual">Saldo Atual R$:
+            <input class="s-atual" type="text">
+            </div>
+
+            <div class="acrescentar">Acrescentar R$:
+            <input class="a-acrescentar" type="text">
+            <button class="btnsomar" onclick="btnsomar()">Somar</button>
+            </div>
+           
+            <div class="diminuir">Diminuir R$:
+                <input class="d-diminuir" type="text">
+                <button class="btndiminuir" onclick="btndiminuir()">Diminuir</button>
+            </div>
+            
+
+            <div class="novosaldo">Novo Saldo R$:
+            <input class="n-saldo" type="text">
+            <button class="btnsaldo" onclick="btnsaldo()">Salvar</button>
+            </div>
+        </fieldset>
+        </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>

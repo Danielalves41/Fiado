@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+           
+}
+.principal{
+    background-color: rgb(248, 246, 242);
+    padding: 10px;
+    display: flex;
+    width: 1200px;
+    height: 550px;
+    border: 3px solid rgb(85, 85, 95);
+}  
+.tela1, .tela2 {
+    width: 100vh;
+    height: 80vh;
+    background: rgb(185, 181, 181);
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 1px;
+}
+h1, h3 {
+    background-color: aliceblue;
+    border: 3px solid rgb(107, 107, 173);
+    text-align: center;
+  
+}
+
+label {
+    padding: 5px;
+    font-size: 18px;
+    margin-left: 10px;
+   
+}
+input {
+    width: 280px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 12px;
+}
+
+button {
+    background-color: #eee;;
+    width: 95px;
+    height: 32px;
+    font-size: 18px;
+    margin-left: 200px;
+    border: 2px 3px 3px rgb(109, 18, 18);
+    border-radius: 8%;
+    cursor: pointer;
+}
+
+legend {
+    font-size: 22px;
+    background: rgb(23, 0, 128);
+    color: white;
+    padding: 5px;
+}
+fieldset {
+    background: rgb(247, 244, 244);
+    margin-bottom: 20px;
+    border: 3px solid rgb(23, 0, 128);
+    
+}
+.s-atual, .a-acrescentar, .n-saldo, .d-diminuir {
+    width: 80px;
+}
+.d-diminuir {
+    margin-left: 30px;
+}
+.btndiminuir, .btnsomar, .btnsaldo {
+    margin-left: 5px;
+    font-size: 12px;
+    width: 60px;
+    height: 25px;
+}
